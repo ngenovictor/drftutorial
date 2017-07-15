@@ -10,11 +10,27 @@ Lists code snippets and allows creation of more
 
 
 ### Installation
-`mkdir project-folder`
-`cd project-folder`
-`virtualenv env`
-`git clone https://github.com/ngenovictor/drftutorial.git`
-`cd tutorial`
-`python manage.py makemigrations`
-`python manage.py migrate`
-`python manage.py runserver`
+```engine='sh'
+mkdir project-folder
+```
+```engine='sh'
+cd project-folder
+```
+```engine='sh'
+virtualenv env
+```
+```engine='sh'
+git clone https://github.com/ngenovictor/drftutorial.git
+```
+```engine='sh'
+cd tutorial
+```
+```engine='sh'
+python manage.py makemigrations
+```
+```engine='sh'
+python manage.py migrate
+```
+```engine='sh'
+python manage.py runserver
+```
